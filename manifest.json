@@ -1,0 +1,29 @@
+{
+  "name": "Lightning goodizer",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Makes working with ligtning just a bit more pleasant.",
+  "homepage_url": "https://google.pl",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon48.png"
+  },
+  "default_locale": "en",
+  "content_scripts" : [{
+        "matches": [
+                "https://*.force.com/*",
+                "https://*.salesforce.com/*",
+                "https://*.cloudforce.com/*"
+            ],
+        "css": ["css/styles.css"],
+        "js" : [
+          "src/main.js"
+        ]
+    }],
+  "permissions": [
+    "https://*.force.com/*",
+    "https://*.salesforce.com/*",
+    "https://*.cloudforce.com/*"
+  ]
+}

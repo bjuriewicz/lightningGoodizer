@@ -1,0 +1,18 @@
+.isSetupApp .slds-page-header,
+.onesetupSetupComponent .uiDataGrid td,
+.onesetupSetupNavTree .slds-tree__item,
+.objectManagerObjectList th,
+.objectManagerVirtualRelatedListCard .uiVirtualDataGrid tbody td,
+.objectManagerObjectList .uiVirtualDataGrid tbody td {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.slds-button--icon-border-filled {
+  height: 18px !important;
+}
+
+.objectManagerActionsMenu .slds-dropdown-trigger,
+.rowActionsPlaceHolder {
+  line-height: 0px !important;
+}
