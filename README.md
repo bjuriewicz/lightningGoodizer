@@ -1,7 +1,7 @@
 # lightningGoodizer
 
- - eager loading of fields lists (no more scrolling to load full list, allows to use ctrl-f)
- - eager loading of objects list
+ - fields lists eager loading (no more scrolling to load full list, allows to use ctrl-f)
+ - objects list eager loading
  - compact lists
  - compact setup menu
 
