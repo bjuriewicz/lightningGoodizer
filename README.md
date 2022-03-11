@@ -1,4 +1,6 @@
-# lightningGoodizer
+# lightningGoodizer 
+
+[Chrome Web Store Link](https://chrome.google.com/webstore/detail/lightning-goodizer/johklehencgcjhabihjcnpbaaaphniei)
 
  - fields lists eager loading (no more scrolling to load full list, allows to use ctrl-f)
  - objects list eager loading
